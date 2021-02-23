@@ -1,0 +1,30 @@
+{
+  "name": "zeromqnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "producer": "node --experimental-modules src/producer-worker/producer.js",
+    "worker": "node --experimental-modules src/producer-worker/worker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yeomann/zeroMQNode.git"
+  },
+  "author": "Danish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeomann/zeroMQNode/issues"
+  },
+  "homepage": "https://github.com/yeomann/zeroMQNode#readme",
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^8.0.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "zeromq": "^6.0.0-beta.6"
+  }
+}
